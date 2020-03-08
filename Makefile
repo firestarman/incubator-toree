@@ -31,7 +31,7 @@ SNAPSHOT:=-SNAPSHOT
 endif
 
 APACHE_SPARK_VERSION?=2.4.4
-SCALA_VERSION?=2.11
+SCALA_VERSION?=2.12
 IMAGE?=jupyter/all-spark-notebook:latest
 EXAMPLE_IMAGE?=apache/toree-examples
 TOREE_DEV_IMAGE?=apache/toree-dev

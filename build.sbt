@@ -72,7 +72,7 @@ javaOptions in ThisBuild ++= Seq(
 testOptions in (ThisBuild, Test) += Tests.Argument("-oDF")
 // Build-wide dependencies
 resolvers in ThisBuild  ++= Seq(
-  "Apache Snapshots" at "http://repository.apache.org/snapshots/",
+  "Apache Snapshots" at "https://repo.maven.apache.org/maven2/",
   "Typesafe repository" at "http://repo.typesafe.com/typesafe/releases/",
   "Jitpack" at "https://jitpack.io",
   "bintray-sbt-plugins" at "http://dl.bintray.com/sbt/sbt-plugin-releases"
